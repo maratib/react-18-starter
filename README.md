@@ -9,6 +9,13 @@ import tsconfigPaths from "vite-tsconfig-paths";
 plugins: [react(), tsconfigPaths()],
 ```
 
+### Shadcn Setup
+
+```bash
+npx shadcn@latest init
+npx shadcn@latest add button
+```
+
 ### Vitest Setup (`Test output will be in TEST RESULTS panel`)
 
 ```bash
@@ -89,9 +96,4 @@ describe("Random Component", () => {
     expect(element).toBeInTheDocument();
   });
 });
-```
-### Shadcn Setup
-
-```bash
-yarn add -D @types/node
 ```
