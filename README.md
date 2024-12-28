@@ -1,4 +1,4 @@
-# React 18, Vite, Shadcn Starter
+# React 18, Vite, Vitest, Shadcn Starter
 
 ### Absolute mapping - Alias mapping
 
@@ -9,7 +9,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 plugins: [react(), tsconfigPaths()],
 ```
 
-### Vitest Setup (Test output will in TEST RESULTS panel)
+### Vitest Setup (`Test output will be in TEST RESULTS panel`)
 
 ```bash
 yarn add -D vitest jsdom @testing-library/user-event @testing-library/react @testing-library/jest-dom @testing-library/dom
@@ -89,4 +89,9 @@ describe("Random Component", () => {
     expect(element).toBeInTheDocument();
   });
 });
+```
+### Shadcn Setup
+
+```bash
+yarn add -D @types/node
 ```
